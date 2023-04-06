@@ -1,0 +1,14 @@
+{
+	"replayQuality": 3,
+	"farAIReplayQuality": 2,
+	"automaticHiglightEnabled": 1,
+	"useOnlyPlayerCarHighlights": 0,
+	"highlightsRecTimeBefore": 15,
+	"highlightsRecTimeAfter": 5,
+	"maxTimeReplaySeconds": 1800,
+	"autoSaveEnabled": 0,
+	"autoSaveRaceNumber": 5,
+	"autoSaveQualifyNumber": 2,
+	"autoSaveOthersNumber": 1,
+	"autoSaveMinTimeSeconds": 30
+}

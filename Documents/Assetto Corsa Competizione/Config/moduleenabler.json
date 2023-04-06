@@ -1,0 +1,12 @@
+{
+	"enableAudio": 1,
+	"enableSpotterAudio": 1,
+	"enableSpotterAudioAndText": 1,
+	"enableAmbientSounds": 1,
+	"enableCollisionSounds": 1,
+	"enableRayCastAudio": 1,
+	"enableHFAudio": 1,
+	"enableOnlineServices": 1,
+	"enableAudioDriverSelection": 1,
+	"enableSparks": 1
+}
