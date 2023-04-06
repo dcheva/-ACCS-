@@ -1,4 +1,3 @@
 # -ACCS- GitHub repo 
-
-started Monza with QR:50 medal:1 (slots:23)
-
+## Branch efunawort
+```start server/accServer.exe```
