@@ -1,19 +1,26 @@
 0: Server starting with version 255
 0: Starting server ACCS
-0: ==ERR: preRaceWaitingTimeSeconds (60) has been set to 80s, -510062464 seconds are too low for public Multiplayer
+0: ==ERR: preRaceWaitingTimeSeconds (60) has been set to 80s, -1769991872 seconds are too low for public Multiplayer
 0: Translated realtime interval hzToMiliseconds(18)=54
 
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.946861
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.912127
 0: Track monza was set and updated
 0: Event changed
 0: ==ERR: Ignoring special assist rules for public Multiplayer
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.916775
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.899483
 0: Significant change detected, updating lobby (1|1)
 0: Resetting weekend to friday night
 0: Reset time to friday night: 0 -> 0
 0: Reset time to first session: 0 -> 115200
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.906929
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.920519
 0: Listening to TCP 9232 | UDP 9231
-329: Trying to connect to lobby (0 times, interval 10000 s)
-329: Session changed: Practice -> Practice 0
-329: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
+478: Trying to connect to lobby (0 times, interval 10000 s)
+478: Session changed: Practice -> Practice 0
+478: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
+21842: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+21858: Trying to connect to lobby (1 times, interval 13000 s)
+22888: RegisterToLobby succeeded
+22903: Sent lobby registration request for monza
+22951: TCPQueue now: 4
+22951: New TCP incoming pakSizeMax, 0 => 2
+22951: Updated lobby with 0 drivers
