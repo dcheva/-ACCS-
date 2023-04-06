@@ -1,23 +1,5 @@
 [symphony3race@vmACCT2 home]$ sudo dnf -y update
 ...
-  Running scriptlet: sssd-proxy-2.8.2-1.el8.x86_64                                                                                                                                                                            220/614
-error: Couldn't fork %prein(sssd-proxy-2.8.2-1.el8.x86_64): Cannot allocate memory
-
-Error in PREIN scriptlet in rpm package sssd-proxy
-  Installing       : python3-magic-5.33-24.el8.noarch                                                                                                                                                                         221/614
-error: sssd-proxy-2.8.2-1.el8.x86_64: install failed
-
-  Upgrading        : sos-4.5.0-1.el8.noarch                                                                                                                                                                                   222/614
-  Upgrading        : python3-bind-32:9.11.36-8.el8.noarch                                                                                                                                                                     223/614
-  Upgrading        : bind-utils-32:9.11.36-8.el8.x86_64                                                                                                                                                                       224/614
-  Upgrading        : sssd-ad-2.8.2-1.el8.x86_64                                                                                                                                                                               225/614
-  Running scriptlet: sssd-ipa-2.8.2-1.el8.x86_64                                                                                                                                                                              226/614
-error: Couldn't fork %prein(sssd-ipa-2.8.2-1.el8.x86_64): Cannot allocate memory
-
-Error in PREIN scriptlet in rpm package sssd-ipa
-  Upgrading        : kernel-tools-4.18.0-483.el8.x86_64                                                                                                                                                                       227/614
-error: sssd-ipa-2.8.2-1.el8.x86_64: install failed
-
   Running scriptlet: kernel-tools-4.18.0-483.el8.x86_64                                                                                                                                                                       227/614
 error: Couldn't fork %post(kernel-tools-4.18.0-483.el8.x86_64): Cannot allocate memory
 
@@ -59,4 +41,27 @@ Killed
 [symphony3race@vmACCT2 home]$ dmesg | egrep -i killed
 ...
 [ 6144.651319] Out of memory: Killed process 2902 (dnf) total-vm:551872kB, anon-rss:192692kB, file-rss:4kB, shmem-rss:0kB, UID:0 pgtables:1060kB oom_score_adj:0
+...
+...
+[symphony3race@vmACCT2 home]$ sudo fallocate -l 1G /swapfile
+[symphony3race@vmACCT2 home]$ sudo mkswap /swapfile
+mkswap: /swapfile: insecure permissions 0644, 0600 suggested.
+Setting up swapspace version 1, size = 1024 MiB (1073737728 bytes)
+no label, UUID=8bd917fd-68e7-4015-8d30-ef76ffc372e6
+[symphony3race@vmACCT2 home]$ sudo chmod 0600 /swapfile
+[symphony3race@vmACCT2 home]$ sudo swapon /swapfile
+[symphony3race@vmACCT2 home]$ sudo dnf -y update
+...
+Upgraded:
+  authselect-libs-1.2.6-1.el8.x86_64            ca-certificates-2022.2.54-80.2.el8.noarch chrony-4.2-1.el8.x86_64          cockpit-ws-288.2-1.el8.x86_64      dbus-daemon-1:1.12.8-24.el8.x86_64  iptables-1.8.4-24.el8.x86_64
+  kmod-kvdo-6.2.8.7-89.el8.x86_64               logrotate-3.14.0-6.el8.x86_64             openssh-8.0p1-17.el8.x86_64      openssh-server-8.0p1-17.el8.x86_64 polkit-0.115-15.el8.x86_64          samba-common-4.17.5-0.el8.noarch
+  selinux-policy-targeted-3.14.3-117.el8.noarch setroubleshoot-server-3.3.26-5.el8.x86_64 sssd-common-2.8.2-1.el8.x86_64   sssd-ipa-2.8.2-1.el8.x86_64        sssd-krb5-common-2.8.2-1.el8.x86_64 sssd-proxy-2.8.2-1.el8.x86_64
+  systemd-239-73.el8.x86_64                     tcpdump-14:4.9.3-3.el8.x86_64             unbound-libs-1.16.2-5.el8.x86_64
+Removed:
+  authselect-1.2.2-3.el8.x86_64                                            iptables-ebtables-1.8.4-22.el8.x86_64                                            sssd-kcm-2.5.2-2.el8_5.1.x86_64
+
+Complete!
+...
+sudo reboot
+...
 ...
