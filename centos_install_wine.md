@@ -1,3 +1,6 @@
+#Step 1: Update System
+https://computingforgeeks.com/install-wine-on-centos-desktop-system/
+```
 [symphony3race@vmACCT2 home]$ sudo dnf -y update
 ...
   Running scriptlet: kernel-tools-4.18.0-483.el8.x86_64                                                                                                                                                                       227/614
@@ -63,5 +66,5 @@ Removed:
 Complete!
 ...
 sudo reboot
-...
-...
+```
+#Step 2: Install Software Building dependencies
