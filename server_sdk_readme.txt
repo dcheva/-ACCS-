@@ -1,0 +1,2 @@
+﻿IMPORTANT NOTE:
+After version 1.5.7, the Assetto Corsa Competizione dedicated server and Broadcast SDK is transferred to and now available as a separate download in the "Assetto Corsa Competizione Dedicated Server" item in the Steam Tools library.

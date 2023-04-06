@@ -1,0 +1,78 @@
+1.8.18
+- Updated formation trigger points for Watkins Glen and Zandvoort.
+
+1.8.17
+- Added option to access servers with "registerToLobby": 0".
+- Updated server admin handbook.
+- Fixed a server vulnerability reported by Leonard Schüngel.
+
+1.8.16
+- Protocol update to follow client update.
+
+1.8.15
+- Support for DLC track content.
+- Updated server admin handbook.
+
+1.8.12
+- Support for DLC car content.
+- Updated server admin handbook.
+
+1.8.11
+- Disqualification for reckless driving (extreme amounts of cutting, pitlane speeding and driving in wrong way) is no longer reduced with "allowAutoDQ" set to 0.
+- Disqualification for failure to serve penalties within 3 laps is no longer prevented with "allowAutoDQ" set to 0.
+NOTE: only race format and regulation-related DQ penalties (e.g. failure to serve mandatory pit stop) may be reduced with the server override.
+- Assist rules with no manual override available (e.g. automatic lights) are no longer enforced by the server.
+
+1.8.5
+- Introduced a "publicIP" setting (configuration.json).
+- Updated server admin handbook.
+
+1.8.2
+- Updated server admin handbook.
+
+1.8.0
+- Protol update to follow client update.
+- Track season versions (_2019, _2020) deprecated, all config should use regular track name only (e.g. "misano").
+- Adjusted formation lap trigger points on a number of tracks.
+- Weather model aligned with client update.
+- Updated server admin handbook.
+
+1.7.12
+- Protocol update to follow client update.
+
+1.7.6
+- Adjusted formation lap trigger points for Donington and Oulton Park.
+- Broadcaster: added missing nationality enums.
+
+1.7.4
+- Adjusted formation lap trigger points for Kyalami.
+- Added setting ignorePrematureDisconnects (ignore unless you try to run servers on not supported operating systems, see handbook).
+- Locked races are now properly visible in the server list.
+
+1.7.1
+- Removed spammy log line.
+
+1.7.0
+- Added support for British GT track content.
+- Expanded grid size on Silverstone and Paul Ricard (see Server Handbook).
+- Formation lap - added threshold zone in the double file formation phase in the widget formation type to avoid undeserved penalties for cars in the inside lane on tracks with tight final corners.
+- Minor tweaks for the weather model to match the latest ACC client version.
+
+1.6.1
+- Fixed server track rotation onto unavailable tracks.
+
+1.6.0
+- Protocol update to match ACC client 1.6 release.
+
+1.5.9
+- Minor tweaks for the weather model to match the latest ACC client version.
+
+1.5.8
+- ACC Server is now separated from the main Assetto Corsa Competizione Steam product and is available under the Steam Tools section. 
+- Fixed a specific corner case where a results dump would not be generated in qualifying/hotlap servers if the last player to leave the server prematurely (i.e. before the session time is up) has no laptime data on his leaderboard.
+- Fixed an issue with dynamic wind in Multiplayer.
+- Unified and improved Singleplayer and Multiplayer weather model:
+Improved weather predictability and control especially for server admins.
+Removed the tendendcy to snap into Thunderstorm when using more dynamic parameters.
+"Rain" parameter is now the major component responsible for maximum rain intensity to be expected.
+- Updated server admin handbook v9.
