@@ -1,4 +1,4 @@
-#Step 1: Update System
+# Step 1: Update System
 https://computingforgeeks.com/install-wine-on-centos-desktop-system/
 ```
 [symphony3race@vmACCT2 home]$ sudo dnf -y update
@@ -67,4 +67,4 @@ Complete!
 ...
 sudo reboot
 ```
-#Step 2: Install Software Building dependencies
+# Step 2: Install Software Building dependencies
