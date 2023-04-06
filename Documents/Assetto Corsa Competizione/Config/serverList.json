@@ -1,3 +1,4 @@
 {
-  "leagueServerIP": "20.101.160.161"
+  //"leagueServerIP": "20.101.160.161"
+    "leagueServerIP": "127.0.0.1"
 }

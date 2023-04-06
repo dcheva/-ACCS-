@@ -1,54 +1,28 @@
 0: Server starting with version 255
-0: Starting server Efun A Wort [EUR#2] Two races per hour weekend 
+0: Starting server [ACCS] Two races per hour weekend 
 0: Joining during race is allowed
+0: maxCarSlots 29 exceeds the allowed slots by Rating requirement (22). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
 0: Translated realtime interval hzToMiliseconds(18)=54
 
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.902179
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.890103
 0: Track monza was set and updated
 0: Event changed
 0: ==ERR: Ignoring special assist rules for public Multiplayer
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.895642
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.891661
 0: Significant change detected, updating lobby (1|1)
+0: maxCarSlots 29 exceeds the allowed slots by Rating requirement (22). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
 0: Resetting weekend to friday night
 0: Reset time to friday night: 0 -> 0
 0: Reset time to first session: 0 -> 43200
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.931583
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.920547
 0: Listening to TCP 9601 | UDP 9600
-672: Trying to connect to lobby (0 times, interval 10000 s)
-672: Session changed: Practice -> Practice 0
-672: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
-21703: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
-21724: Trying to connect to lobby (1 times, interval 13000 s)
-22746: RegisterToLobby succeeded
-22761: Sent lobby registration request for monza
-22806: TCPQueue now: 4
-22806: New TCP incoming pakSizeMax, 0 => 2
-22806: Updated lobby with 0 drivers
-46701: Replied to network discovery request
-58589: New connection received 344
-58589: 1 client(s) online
-58589: TCPQueue now: 442
-58589: New TCP incoming pakSizeMax, 0 => 440
-58589: Located entryListId -1 for connection 0 S76561199991291245
-58589: ==ERR: Rejected driver, -1/49 SA rating
-58604: Removing dead connection 0  (last lastUdpPaketReceived 58604)
-58604: Alive connections: 0
-58604: 0 client(s) online
-62238: New connection received 332
-62238: 1 client(s) online
-62238: TCPQueue now: 442
-62238: New TCP incoming pakSizeMax, 0 => 440
-62238: Located entryListId -1 for connection 1 S76561199991291245
-62238: ==ERR: Rejected driver, -1/49 SA rating
-62254: Removing dead connection 1  (last lastUdpPaketReceived 62254)
-62254: Alive connections: 0
-62254: 0 client(s) online
-64966: New connection received 348
-64966: 1 client(s) online
-64966: TCPQueue now: 442
-64966: New TCP incoming pakSizeMax, 0 => 440
-64966: Located entryListId -1 for connection 2 S76561199991291245
-64966: ==ERR: Rejected driver, -1/49 SA rating
-64981: Removing dead connection 2  (last lastUdpPaketReceived 64981)
-64981: Alive connections: 0
-64981: 0 client(s) online
+397: Trying to connect to lobby (0 times, interval 10000 s)
+397: Session changed: Practice -> Practice 0
+397: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
+21446: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+21461: Trying to connect to lobby (1 times, interval 13000 s)
+22494: RegisterToLobby succeeded
+22510: Sent lobby registration request for monza
+22558: TCPQueue now: 4
+22558: New TCP incoming pakSizeMax, 0 => 2
+22558: Updated lobby with 0 drivers
