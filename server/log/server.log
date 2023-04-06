@@ -1,20 +1,19 @@
 0: Server starting with version 255
-0: Starting server ACC Server (please edit settings.json)
-0: maxCarSlots 30 exceeds the allowed slots by Rating requirement (12). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
+0: Starting server ACCS
+0: ==ERR: preRaceWaitingTimeSeconds (60) has been set to 80s, -510062464 seconds are too low for public Multiplayer
 0: Translated realtime interval hzToMiliseconds(18)=54
 
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.916049
-0: Track mount_panorama was set and updated
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.946861
+0: Track monza was set and updated
 0: Event changed
 0: ==ERR: Ignoring special assist rules for public Multiplayer
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.944181
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.916775
 0: Significant change detected, updating lobby (1|1)
-0: maxCarSlots 30 exceeds the allowed slots by Rating requirement (12). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
 0: Resetting weekend to friday night
 0: Reset time to friday night: 0 -> 0
-0: Reset time to first session: 0 -> 108000
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.904321
+0: Reset time to first session: 0 -> 115200
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.906929
 0: Listening to TCP 9232 | UDP 9231
-268: Trying to connect to lobby (0 times, interval 10000 s)
-268: Session changed: Practice -> Practice 0
-268: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
+329: Trying to connect to lobby (0 times, interval 10000 s)
+329: Session changed: Practice -> Practice 0
+329: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
