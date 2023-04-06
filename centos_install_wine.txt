@@ -1,3 +1,4 @@
+```
 [symphony3race@vmACCT2 home]$ sudo dnf -y update
 ...
   Running scriptlet: sssd-proxy-2.8.2-1.el8.x86_64                                                                                                                                                                            220/614
@@ -58,3 +59,4 @@ Error: Transaction failed
 Killed
 [symphony3race@vmACCT2 home]$ dmesg | egrep -i killed
 ...[ 6144.651319] Out of memory: Killed process 2902 (dnf) total-vm:551872kB, anon-rss:192692kB, file-rss:4kB, shmem-rss:0kB, UID:0 pgtables:1060kB oom_score_adj:0
+```
