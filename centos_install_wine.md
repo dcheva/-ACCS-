@@ -1,5 +1,4 @@
 # Step 1: Update System
-https://computingforgeeks.com/install-wine-on-centos-desktop-system/
 ```
 [symphony3race@vmACCT2 home]$ sudo dnf -y update
 ...
@@ -108,7 +107,9 @@ sudo dnf config-manager --set-enabled powertools
 sudo dnf -y install libxslt-devel libpng-devel libX11-devel zlib-devel libtiff-devel freetype-devel libxcb-devel  libxml2-devel libgcrypt-devel dbus-devel libjpeg-turbo-devel  fontconfig-devel gnutls-devel gstreamer1-devel libXcursor-devel libXi-devel libXrandr-devel libXfixes-devel libXinerama-devel libXcomposite-devel mesa-libOSMesa-devel libpcap-devel libusb-devel libv4l-devel libgphoto2-devel gstreamer1-devel libgudev SDL2-devel gsm-devel libvkd3d-devel libudev-devel make cmake gcc flex
 
 Complete!
-...
+```
+# Step 3: Install Wine
+```
 [symphony3race@vmACCT2 /]$ sudo dnf -y install wget
 Complete!
 [symphony3race@vmACCT2 /]$ cd ~
@@ -131,8 +132,9 @@ configure: error: cannot run C compiled programs.
 If you meant to cross compile, use `--host'.
 See `config.log' for more details
 [symphony3race@vmACCT2 wine-8.1]$
-...
-...
+```
+# Step 4: ok. Install Wine
+```
 sudo dnf clean all && sudo dnf update
 ...
 ...
@@ -149,5 +151,44 @@ Install  184 Packages
 ...
 
 Complete!
-...
+```
+# Step 5: Get and run server
+```
+[symphony3race@vmACCT2 ~]$ git clone https://github.com/dcheva/-ACCS-.git ACCS
+[symphony3race@vmACCT2 ~]$ cd ACCS/server
+[symphony3race@vmACCT2 ~]$ wine accServer.exe
+0070:err:explorer:initialize_display_settings Failed to query current display settings for L"\\\\.\\DISPLAY1".
+0024:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000017E980 1 C) semi-stub
+0024:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000017E5F0 1 C) semi-stub
+0024:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (000000000017E5E0 1 C) semi-stub
+Server starting with version 255
+Starting server Efun A Wort [EUR#2] Two races per hour weekend
+Joining during race is allowed
+Translated realtime interval hzToMiliseconds(18)=54
 
+SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.911228
+Track monza was set and updated
+Event changed
+==ERR: Ignoring special assist rules for public Multiplayer
+SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.929783
+Significant change detected, updating lobby (1|1)
+Resetting weekend to friday night
+Reset time to friday night: 0 -> 0
+Reset time to first session: 0 -> 43200
+SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.903349
+Listening to TCP 9601 | UDP 9600
+Trying to connect to lobby (0 times, interval 10000 s)
+Session changed: Practice -> Practice 0
+Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
+TCP connect returns: -1
+TCP connect returns: 0
+==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+Trying to connect to lobby (1 times, interval 13000 s)
+00dc:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (00000000012EF7B0 1 C) semi-stub
+00dc:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (00000000012EF7B0 1 C) semi-stub
+00dc:fixme:msvcp:_Locinfo__Locinfo_ctor_cat_cstr (00000000012EF7B0 1 C) semi-stub
+RegisterToLobby succeeded
+==ERR: This server is only supported on Windows operating systems. Running WINE may work dependent on your settings, but there are differences that affect the user's experience negatively.
+Sent lobby registration request for monza
+```
+___
