@@ -1,2 +1,2 @@
 # -ACCS- GitHub repo 
-```start ACCS/server/accServer.exe```
+```start server/accServer.exe```
