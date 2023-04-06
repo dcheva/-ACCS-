@@ -109,3 +109,45 @@ sudo dnf -y install libxslt-devel libpng-devel libX11-devel zlib-devel libtiff-d
 
 Complete!
 ...
+[symphony3race@vmACCT2 /]$ sudo dnf -y install wget
+Complete!
+[symphony3race@vmACCT2 /]$ cd ~
+[symphony3race@vmACCT2 ~]$ curl -O https://dl.winehq.org/wine/source/8.x/wine-8.1.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 27.7M  100 27.7M    0     0   124M      0 --:--:-- --:--:-- --:--:--  123M
+...
+[symphony3race@vmACCT2 ~]$ cd wine-*/
+[symphony3race@vmACCT2 wine-8.1]$ ./configure --enable-win64
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... configure: error: in `/home/symphony3race/wine-8.1':
+configure: error: cannot run C compiled programs.
+If you meant to cross compile, use `--host'.
+See `config.log' for more details
+[symphony3race@vmACCT2 wine-8.1]$
+...
+...
+sudo dnf clean all && sudo dnf update
+...
+...
+[symphony3race@vmACCT2 ~]$ cd /
+[symphony3race@vmACCT2 /]$ sudo dnf install epel-release
+[symphony3race@vmACCT2 /]$ sudo yum install wine
+Last metadata expiration check: 0:00:58 ago on Thu 06 Apr 2023 07:24:31 PM UTC.
+Dependencies resolved.
+...
+Installing:
+ wine 
+...
+Install  184 Packages
+...
+
+Complete!
+...
+
