@@ -68,3 +68,44 @@ Complete!
 sudo reboot
 ```
 # Step 2: Install Software Building dependencies
+```
+[symphony3race@vmACCT2 ~]$ sudo dnf groupinstall 'Development Tools' -y
+Failed:
+  glibc-headers-2.28-225.el8.x86_64               pesign-0.112-26.el8.x86_64               sgml-common-0.6.3-50.el8.noarch               systemtap-runtime-4.8-2.el8.x86_64               xml-common-0.6.3-50.el8.noarch
+
+Error: Transaction failed
+[symphony3race@vmACCT2 ~]$
+...
+Running transaction
+  Preparing        :                                                                                                                                                                                                              1/1
+  Running scriptlet: pesign-0.112-26.el8.x86_64                                                                                                                                                                                   1/1
+error: Couldn't fork %prein(pesign-0.112-26.el8.x86_64): Cannot allocate memory
+
+Error in PREIN scriptlet in rpm package pesign
+  Verifying        : pesign-0.112-26.el8.x86_64                                                                                                                                                                                   1/1
+
+Failed:
+  pesign-0.112-26.el8.x86_64
+
+Error: Transaction failed
+...
+[symphony3race@vmACCT2 home]$ sudo mkswap /swapfile
+Setting up swapspace version 1, size = 1024 MiB (1073737728 bytes)
+no label, UUID=8bd917fd-68e7-4015-8d30-ef76ffc372e6
+[symphony3race@vmACCT2 home]$ sudo swapon /swapfile
+[symphony3race@vmACCT2 ~]$ sudo dnf groupinstall 'Development Tools' -y
+
+Complete!
+...
+[symphony3race@vmACCT2 /]$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:            400         171          79           3         149         214
+Swap:          1023           0        1023
+...
+sudo dnf -y install epel-release
+sudo dnf config-manager --set-enabled powertools
+...
+sudo dnf -y install libxslt-devel libpng-devel libX11-devel zlib-devel libtiff-devel freetype-devel libxcb-devel  libxml2-devel libgcrypt-devel dbus-devel libjpeg-turbo-devel  fontconfig-devel gnutls-devel gstreamer1-devel libXcursor-devel libXi-devel libXrandr-devel libXfixes-devel libXinerama-devel libXcomposite-devel mesa-libOSMesa-devel libpcap-devel libusb-devel libv4l-devel libgphoto2-devel gstreamer1-devel libgudev SDL2-devel gsm-devel libvkd3d-devel libudev-devel make cmake gcc flex
+
+Complete!
+...
