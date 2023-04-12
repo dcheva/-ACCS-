@@ -1,9 +1,0 @@
-{
-	"enabled": 1,
-	"useInPractice": 0,
-	"useDifferentOpponent": 0,
-	"opponentModelType": "Ferrari_488_GT3",
-	"useExperimentalStateColor": 1,
-	"offsetTimeMS": 0,
-	"ghostQuality": 2
-}
