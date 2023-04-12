@@ -1,18 +1,149 @@
 0: Server starting with version 255
 0: Starting server [ACCS] Two races per hour weekend 
 0: Joining during race is allowed
-0: maxCarSlots 29 exceeds the allowed slots by Rating requirement (22). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
+0: maxCarSlots 29 exceeds the allowed slots by Rating requirement (10). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
 0: Translated realtime interval hzToMiliseconds(18)=54
 
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.928241
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.926624
 0: Track monza was set and updated
 0: Event changed
 0: ==ERR: Ignoring special assist rules for public Multiplayer
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.925952
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.908930
 0: Significant change detected, updating lobby (1|1)
-0: maxCarSlots 29 exceeds the allowed slots by Rating requirement (22). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
+0: maxCarSlots 29 exceeds the allowed slots by Rating requirement (10). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
 0: Resetting weekend to friday night
 0: Reset time to friday night: 0 -> 0
 0: Reset time to first session: 0 -> 43200
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.935911
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.948568
 0: Listening to TCP 9601 | UDP 9600
+364: Trying to connect to lobby (0 times, interval 10000 s)
+364: Session changed: Practice -> Practice 0
+364: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
+11422: Replied to network discovery request
+14421: New connection received 356
+14421: 1 client(s) online
+14421: TCPQueue now: 454
+14421: New TCP incoming pakSizeMax, 0 => 452
+14421: Located entryListId -1 for connection 0 S76561198412322587
+14421: ==ERR: Rejected driver, -1/0 SA rating
+14424: Removing dead connection 0  (last lastUdpPaketReceived 14424)
+14424: Alive connections: 0
+14424: 0 client(s) online
+21364: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+21367: Trying to connect to lobby (1 times, interval 13000 s)
+22398: RegisterToLobby succeeded
+22401: Sent lobby registration request for monza
+22441: TCPQueue now: 4
+22441: New TCP incoming pakSizeMax, 0 => 2
+22441: Updated lobby with 0 drivers
+381252: Server was running late for 1 step(s), not enough CPU power
+518381: Server was running late for 1 step(s), not enough CPU power
+688579: Server was running late for 1 step(s), not enough CPU power
+771595: Server was running late for 1 step(s), not enough CPU power
+869427: Server was running late for 1 step(s), not enough CPU power
+877611: Server was running late for 1 step(s), not enough CPU power
+881850: Server was running late for 1 step(s), not enough CPU power
+898768: Server was running late for 1 step(s), not enough CPU power
+905212: Server was running late for 1 step(s), not enough CPU power
+1068359: Server was running late for 1 step(s), not enough CPU power
+1295557: Server was running late for 1 step(s), not enough CPU power
+1322584: Server was running late for 1 step(s), not enough CPU power
+1478643: Server was running late for 1 step(s), not enough CPU power
+1505076: Server was running late for 1 step(s), not enough CPU power
+1723083: Server was running late for 1 step(s), not enough CPU power
+1799233: Server was running late for 1 step(s), not enough CPU power
+1800507: Server was running late for 1 step(s), not enough CPU power
+1804246: Server was running late for 1 step(s), not enough CPU power
+1826884: Server was running late for 1 step(s), not enough CPU power
+1832019: Server was running late for 1 step(s), not enough CPU power
+1832400: Server was running late for 1 step(s), not enough CPU power
+1841104: Server was running late for 1 step(s), not enough CPU power
+1844764: Server was running late for 1 step(s), not enough CPU power
+1848866: Server was running late for 1 step(s), not enough CPU power
+2425611: Server was running late for 1 step(s), not enough CPU power
+2427960: Server was running late for 1 step(s), not enough CPU power
+2470708: Server was running late for 1 step(s), not enough CPU power
+2699417: Server was running late for 1 step(s), not enough CPU power
+3043693: Server was running late for 1 step(s), not enough CPU power
+3470877: Server was running late for 1 step(s), not enough CPU power
+4040581: Server was running late for 1 step(s), not enough CPU power
+4293865: Replied to network discovery request
+4296198: New connection received 392
+4296198: 1 client(s) online
+4296198: TCPQueue now: 454
+4296198: New TCP incoming pakSizeMax, 0 => 452
+4296198: Located entryListId -1 for connection 1 S76561198412322587
+4296198: ==ERR: Rejected driver, -1/0 SA rating
+4296201: Removing dead connection 1  (last lastUdpPaketReceived 4296201)
+4296201: Alive connections: 0
+4296201: 0 client(s) online
+4398660: Server was running late for 1 step(s), not enough CPU power
+4870918: Server was running late for 1 step(s), not enough CPU power
+5004217: Server was running late for 1 step(s), not enough CPU power
+5203611: Server was running late for 1 step(s), not enough CPU power
+5424235: Server was running late for 1 step(s), not enough CPU power
+5931199: Server was running late for 1 step(s), not enough CPU power
+5931245: Server was running late for 1 step(s), not enough CPU power
+5931245: Server was running late for 2 step(s), not enough CPU power
+5931245: Server was running late for 3 step(s), not enough CPU power
+5931415: Server was running late for 1 step(s), not enough CPU power
+5931415: Server was running late for 2 step(s), not enough CPU power
+5931419: Server was running late for 3 step(s), not enough CPU power
+5931580: Server was running late for 1 step(s), not enough CPU power
+5931792: Server was running late for 1 step(s), not enough CPU power
+5981044: Server was running late for 1 step(s), not enough CPU power
+5981067: Server was running late for 1 step(s), not enough CPU power
+5981979: Server was running late for 1 step(s), not enough CPU power
+5982307: Server was running late for 1 step(s), not enough CPU power
+5982315: Server was running late for 1 step(s), not enough CPU power
+5988440: Server was running late for 1 step(s), not enough CPU power
+5988472: Server was running late for 1 step(s), not enough CPU power
+5988528: Server was running late for 1 step(s), not enough CPU power
+5992010: Server was running late for 1 step(s), not enough CPU power
+6000645: Server was running late for 1 step(s), not enough CPU power
+6005721: Server was running late for 1 step(s), not enough CPU power
+6008346: Server was running late for 1 step(s), not enough CPU power
+6110427: Server was running late for 1 step(s), not enough CPU power
+6130210: Server was running late for 1 step(s), not enough CPU power
+6200365: Server was running late for 1 step(s), not enough CPU power
+6204170: Server was running late for 1 step(s), not enough CPU power
+6281790: Server was running late for 1 step(s), not enough CPU power
+6295494: Server was running late for 1 step(s), not enough CPU power
+6449967: Server was running late for 1 step(s), not enough CPU power
+6477760: Server was running late for 1 step(s), not enough CPU power
+6477760: Server was running late for 2 step(s), not enough CPU power
+6533112: Server was running late for 1 step(s), not enough CPU power
+6567342: Server was running late for 1 step(s), not enough CPU power
+6594457: Server was running late for 1 step(s), not enough CPU power
+6594529: Server was running late for 1 step(s), not enough CPU power
+6607174: Server was running late for 1 step(s), not enough CPU power
+6627759: Server was running late for 1 step(s), not enough CPU power
+6664626: Server was running late for 1 step(s), not enough CPU power
+6719920: Server was running late for 1 step(s), not enough CPU power
+6721608: Server was running late for 1 step(s), not enough CPU power
+6724887: Server was running late for 1 step(s), not enough CPU power
+6767518: Server was running late for 1 step(s), not enough CPU power
+6777439: Server was running late for 1 step(s), not enough CPU power
+6801684: Server was running late for 1 step(s), not enough CPU power
+6840537: Server was running late for 1 step(s), not enough CPU power
+6862086: Server was running late for 1 step(s), not enough CPU power
+6871916: Server was running late for 1 step(s), not enough CPU power
+6898966: Server was running late for 1 step(s), not enough CPU power
+6930163: Server was running late for 1 step(s), not enough CPU power
+7041269: Server was running late for 1 step(s), not enough CPU power
+7044655: Server was running late for 1 step(s), not enough CPU power
+7123886: Server was running late for 1 step(s), not enough CPU power
+7132638: Server was running late for 1 step(s), not enough CPU power
+7142688: Server was running late for 1 step(s), not enough CPU power
+7147188: Server was running late for 1 step(s), not enough CPU power
+7147451: Server was running late for 1 step(s), not enough CPU power
+7151190: Server was running late for 1 step(s), not enough CPU power
+7163188: Server was running late for 1 step(s), not enough CPU power
+7179870: Server was running late for 1 step(s), not enough CPU power
+7182904: Server was running late for 1 step(s), not enough CPU power
+7194444: Server was running late for 1 step(s), not enough CPU power
+7552630: Server was running late for 1 step(s), not enough CPU power
+7561960: Server was running late for 1 step(s), not enough CPU power
+7614706: Server was running late for 1 step(s), not enough CPU power
+7723606: Server was running late for 1 step(s), not enough CPU power
+7822128: Server was running late for 1 step(s), not enough CPU power
