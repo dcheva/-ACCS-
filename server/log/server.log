@@ -4,25 +4,73 @@
 0: maxCarSlots 29 exceeds the allowed slots by Rating requirement (22). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
 0: Translated realtime interval hzToMiliseconds(18)=54
 
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.890103
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.935512
 0: Track monza was set and updated
 0: Event changed
 0: ==ERR: Ignoring special assist rules for public Multiplayer
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.891661
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.916566
 0: Significant change detected, updating lobby (1|1)
 0: maxCarSlots 29 exceeds the allowed slots by Rating requirement (22). Add Track Medal and Safety Rating Requirements to gain up to 30 slots (3 TM + 70 SA)
 0: Resetting weekend to friday night
 0: Reset time to friday night: 0 -> 0
 0: Reset time to first session: 0 -> 43200
-0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.920547
+0: SessionManager::randomizeGreenFlagTriggers: s:0.890000 e:0.950000 r:0.929232
 0: Listening to TCP 9601 | UDP 9600
-397: Trying to connect to lobby (0 times, interval 10000 s)
-397: Session changed: Practice -> Practice 0
-397: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
-21446: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
-21461: Trying to connect to lobby (1 times, interval 13000 s)
-22494: RegisterToLobby succeeded
-22510: Sent lobby registration request for monza
-22558: TCPQueue now: 4
-22558: New TCP incoming pakSizeMax, 0 => 2
-22558: Updated lobby with 0 drivers
+301: Trying to connect to lobby (0 times, interval 10000 s)
+301: Session changed: Practice -> Practice 0
+301: Detected sessionPhase <waiting for drivers> -> <waiting for drivers> (Practice)
+21304: ==ERR: RegisterToLobby TCP connection failed, couldn't connect to the lobby server
+21307: Trying to connect to lobby (1 times, interval 13000 s)
+22339: RegisterToLobby succeeded
+22342: Sent lobby registration request for monza
+22375: TCPQueue now: 4
+22375: New TCP incoming pakSizeMax, 0 => 2
+22375: Updated lobby with 0 drivers
+139974: Server was running late for 1 step(s), not enough CPU power
+154984: Replied to network discovery request
+164587: New connection received 336
+164587: 1 client(s) online
+164587: TCPQueue now: 454
+164587: New TCP incoming pakSizeMax, 0 => 452
+164587: Located entryListId -1 for connection 0 S76561198412322587
+164587: ==ERR: Rejected driver, -1/49 SA rating
+164590: Removing dead connection 0  (last lastUdpPaketReceived 164590)
+164590: Alive connections: 0
+164590: 0 client(s) online
+173920: New connection received 340
+173920: 1 client(s) online
+173920: TCPQueue now: 454
+173920: New TCP incoming pakSizeMax, 0 => 452
+173920: Located entryListId -1 for connection 1 S76561198412322587
+173920: ==ERR: Rejected driver, -1/49 SA rating
+173923: Removing dead connection 1  (last lastUdpPaketReceived 173923)
+173923: Alive connections: 0
+173923: 0 client(s) online
+177652: New connection received 340
+177652: 1 client(s) online
+177652: TCPQueue now: 454
+177652: New TCP incoming pakSizeMax, 0 => 452
+177652: Located entryListId -1 for connection 2 S76561198412322587
+177652: ==ERR: Rejected driver, -1/49 SA rating
+177655: Removing dead connection 2  (last lastUdpPaketReceived 177655)
+177655: Alive connections: 0
+177655: 0 client(s) online
+181720: New connection received 328
+181720: 1 client(s) online
+181720: TCPQueue now: 454
+181720: New TCP incoming pakSizeMax, 0 => 452
+181720: Located entryListId -1 for connection 3 S76561198412322587
+181720: ==ERR: Rejected driver, -1/49 SA rating
+181723: Removing dead connection 3  (last lastUdpPaketReceived 181723)
+181723: Alive connections: 0
+181723: 0 client(s) online
+192064: Replied to network discovery request
+194599: New connection received 352
+194599: 1 client(s) online
+194599: TCPQueue now: 454
+194599: New TCP incoming pakSizeMax, 0 => 452
+194599: Located entryListId -1 for connection 4 S76561198412322587
+194599: ==ERR: Rejected driver, -1/49 SA rating
+194602: Removing dead connection 4  (last lastUdpPaketReceived 194602)
+194602: Alive connections: 0
+194602: 0 client(s) online
